@@ -1,0 +1,249 @@
+body{
+    margin: 0px;    
+    background: #EAEDED;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: center;
+    align-items: center; 
+    height: 90vh;
+    font-family: 'Coustard', serif;
+    font-weight: normal;
+  }
+
+
+  
+  .container__profilecard {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%;
+  }
+
+  .container__profilecard__img{
+    display: flex;
+    flex-basis: 200px;
+    height: 150px;
+    border: 1px solid  #ABB2B9;
+    border-radius: 50%;
+    padding: 1px;
+  }
+  .container__profilecard__name{
+    font-weight: normal;
+    color: #154360;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .container__profilecard__description{
+    font-size: x-small;
+    color: #616A6B;
+    text-align: justify;
+    padding-inline: 5px;
+    padding-bottom: 5px;
+  }
+
+  .container__profilecard__buttons--linkedin{
+    width: 30px;
+    height: 30px;
+  }
+
+  .container__profilecard__buttons--github{
+    width: 30px;
+    height: 30px; 
+  }
+
+  .container__profilecard__buttons p{
+    color: #154360;
+  }
+
+  
+  .container__construction{
+    background-color: #181818;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;    
+    box-sizing: border-box;
+    flex-basis: 80%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 1)), url('assets/fondo.jpg');
+    background-color:  rgba(0, 0, 0, 1) ;
+    margin-bottom: -1px;
+    }
+
+  #container__construction__title{
+    margin: 0px;
+    font-family: 'Poppins', serif;
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: left;
+    color: #F2F3F4;
+  }
+  #container__construction__title__1{
+    margin: 0px;
+    font-family: 'Poppins', serif;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 30%;
+    color: #BDC3C7 ;
+  }
+
+ 
+  #container__construction__subtitle{
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 30%;
+    font-family: 'Coustard', serif;
+    font-weight: normal;
+    text-align: left;
+    color: #979A9A ;
+  }
+  
+  
+  .gears-animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+
+  #countdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    flex-wrap: wrap;
+
+  }
+
+  #countdown__date{
+    color:#922B21;
+    margin: 0px;
+    margin-top: 30px;
+  }
+
+  #countdown__sepator{
+    font-weight: bold;
+    color: #909497;
+  }
+    
+  .countdown__timer{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #909497;
+  }
+  .countdown__timer span{
+    font-size: 20px;
+    padding-inline: 5px;
+    font-weight: normal;
+    color: #7B241C ;
+  }
+  #countdown__timer--days{
+    margin-bottom: 0px;
+  }
+  #countdown__timer--minutes{
+    margin-bottom: 0px;
+  }
+  #countdown__timer--hours{
+    margin-bottom: 0px;
+  }
+  #countdown__timer--seconds{
+    margin-bottom: 0px;
+  }
+
+  .gears{
+    animation-name: ckw;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    height: 150px;
+    display: inline-block;
+    animation-timing-function: linear;
+}
+    @keyframes ckw {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .gears1{
+        animation-name: ckw1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        display: inline-block;
+        animation-timing-function: linear;
+        height: 200px;
+    }
+    @keyframes ckw1 {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(-360deg);
+        }
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        font-family: 'Poppins', serif;
+        font-size: xx-small;
+        color: #979A9A ;
+        height: 10vh;
+        width: 100%;
+        margin: 0px;
+        
+    }
+    .footer__logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        padding: 20px;
+    }
+    .footer__logo img{
+        height: 50px;
+        width: 150px;
+    }
+
+    .footer_copyrigth{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        background:  rgba(0, 0, 0, 1);
+        margin-top: -1px;
+        
+    }
+
+    
+
+    .container__profilecard__buttons--github :hover{
+        opacity: 50%;
+    }
+    .container__profilecard__buttons--linkedin :hover{
+        opacity: 50%;
+    }
+    
+    
+  
+  
