@@ -1,2 +1,2 @@
-command = "cd \"v 2.0.1\" && npm run build"
-publish = "v 2.0.1/dist"
+command = "cd v2.0.1 && npm run build"
+publish = "v2.0.1/dist"
