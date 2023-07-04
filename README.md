@@ -6,15 +6,22 @@ The main goal of this project is to create an interactive and visually appealing
 
 ## Screenshot
 Here's a screenshot of my portfolio:
+***mobile view (375px - 475px)***
+![Image](./asset/image.png)
 
-![Image](/assets/image.png)
-
+***desktop view (1440px)***
+![Image](./asset/image-1.jpg)
 
 ## My Process
 ### Built with
-* HTML5
-* CSS3 (Flexbox and Grid)
-* JavaScript
+1. Version 1.0.0 : 
+    * HTML5
+    * CSS3 (Flexbox and Grid)
+    * JavaScript
+2.  Version 2.0.1 :
+    * Sass
+    * React
+    * JavaScript
 
 ### What I Learned
 During the development of this project, I gained knowledge and skills in the following areas:

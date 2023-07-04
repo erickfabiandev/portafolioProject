@@ -12,56 +12,6 @@ body{
     font-family: 'Coustard', serif;
     font-weight: normal;
   }
-
-
-  
-  .container__profilecard {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 20%;
-  }
-
-  .container__profilecard__img{
-    display: flex;
-    flex-basis: 200px;
-    height: 150px;
-    border: 1px solid  #ABB2B9;
-    border-radius: 50%;
-    padding: 1px;
-  }
-  .container__profilecard__name{
-    font-weight: normal;
-    color: #154360;
-    padding: 0px;
-    margin: 0px;
-  }
-
-  .container__profilecard__description{
-    font-size: x-small;
-    color: #616A6B;
-    text-align: justify;
-    padding-inline: 5px;
-    padding-bottom: 5px;
-  }
-
-  .container__profilecard__buttons--linkedin{
-    width: 30px;
-    height: 30px;
-  }
-
-  .container__profilecard__buttons--github{
-    width: 30px;
-    height: 30px; 
-  }
-
-  .container__profilecard__buttons p{
-    color: #154360;
-  }
-
   
   .container__construction{
     background-color: #181818;

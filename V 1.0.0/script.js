@@ -7,10 +7,6 @@ let secondsLabel=document.getElementById('countdown__timer--seconds');
 // Establecer la fecha de finalización del contador
 const countdownDate = new Date('Jul 09 2023 18:00:00 GMT-0500');
 
-//Insertamos la hora por primera vez
-
-
-
 // Actualizar el contador cada segundo
 var countdownInterval = setInterval(function(){
     
