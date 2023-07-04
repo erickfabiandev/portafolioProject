@@ -1,0 +1,55 @@
+.gears-animation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gears{
+    animation-name: ckw;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    height: 150px;
+    display: inline-block;
+    animation-timing-function: linear;
+
+    @media (max-width:375px),(max-width:475px) {
+        height: 80px;
+    }
+}
+
+    @keyframes ckw {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .gears1{
+        animation-name: ckw1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        display: inline-block;
+        animation-timing-function: linear;
+        height: 200px;
+
+        @media (max-width:375px),(max-width:475px) {
+            height: 100px;
+        }
+
+    }
+
+
+    @keyframes ckw1 {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(-360deg);
+        }
+    }
