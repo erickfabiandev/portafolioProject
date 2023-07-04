@@ -6,6 +6,7 @@ The main goal of this project is to create an interactive and visually appealing
 
 ## Screenshot
 Here's a screenshot of my portfolio:
+
 ***mobile view (375px - 475px)***
 ![Image](./asset/image.png)
 
