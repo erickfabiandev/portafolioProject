@@ -1,0 +1,31 @@
+.container_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+     /* Estilos específicos para pantallas pequeñas */
+     @media (max-width: 375px), (max-width: 475px){
+        background:black ;        
+        height: 15vh;
+    }
+}
+
+
+.image {
+    /* Estilos generales para la imagen */
+    height: 70px;
+    width: 180px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://res.cloudinary.com/dkddd5aky/image/upload/v1688450910/portafolio/logoB.png'); 
+
+    /* Estilos específicos para pantallas pequeñas */
+    @media (max-width: 375px), (max-width: 475px){        
+            height: 79px;
+             width: 185px;
+            background-image: url('https://res.cloudinary.com/dkddd5aky/image/upload/v1688450910/portafolio/logoN.png');
+        }
+  }
+  
+ 
