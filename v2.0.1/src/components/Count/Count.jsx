@@ -5,7 +5,7 @@ import './Count.scss'
 
 const Count =() =>{
 
-    const countdownDate = new Date('Jul 09 2023 18:00:00 GMT-0500');
+    const countdownDate = new Date('Jul 23 2023 18:00:00 GMT-0500');
     const [downDate, setDowDate]=useState({
         days:'00',
         hours:'00',
