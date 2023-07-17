@@ -9,7 +9,7 @@ const Content=()=>{
             <p id="container__construction__subtitle">I'm currently building a page where you'll find a showcase of the web and mobile applications I've developed. 
                 I'm excited to share my work with you and demonstrate how technology can make a difference. Stay tuned for updates!</p>            
 
-            <p id="countdown__date">🚀 Release date: 09 de Julio de 2023 </p>
+            <p id="countdown__date">🚀 Release date: 23 de Julio de 2023 </p>
         </>
     )
 }
